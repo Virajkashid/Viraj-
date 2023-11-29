@@ -4,5 +4,9 @@ DEPLOYMENT MODEL IN CLOUD ?
 ANS-: 1) cloud 2) hybrid 3) on-premise
 SERVICE MODEL IN CLOUD ?
 ANS-: 1)software as service(SAAS) 2)platform as service(PASS) 3)infrastructure as service (IAAS)
- 
-ANS-: 
+ AWS GLOBEL INFRASTRUCTURE COUNT ?
+ANS-: 1) 32 lounched regions 2) 102 availability zones 3) 600+ points of presence 
+WHY DO WE USE REGION ?
+ANS-: to provide adiditional scalibility and reliability these data center failicity are located in different physical location and also give the greter controal over your recovry time.
+WHATE IS SERVICE ? & WHAT IS RESOURCE ?
+ANS-: 1) service - 
