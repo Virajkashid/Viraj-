@@ -9,4 +9,6 @@ ANS-: 1) 32 lounched regions 2) 102 availability zones 3) 600+ points of presenc
 WHY DO WE USE REGION ?
 ANS-: to provide adiditional scalibility and reliability these data center failicity are located in different physical location and also give the greter controal over your recovry time.
 WHATE IS SERVICE ? & WHAT IS RESOURCE ?
-ANS-: 1) service - 
+ANS-: 1) service -  service is the specific cloud  computing offering provid cloud servers 
+ANS-: 2) resource -resource is discribe as a any vertual  entity that can manage  through aws 
+
