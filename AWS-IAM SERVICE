@@ -14,3 +14,11 @@ WHAT IS THE IAM ROLE ?
 ANS-: An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS.
 WHERE DO WE ATTACH IDENTITY BASED POLICY?
 ANS-: we also attach the identiy based policy to user ,groups,and rolrs.
+WHERE DO WE ATTACH RESOURCE BASED POLICY? 
+ANS-: s3 buket ,amazon s3 object , lamda function ,amazon sns topic.
+CAN WE BE ABLE TO CREAT POLICY VIA JSON CODE?
+ANS-: YES, but  aws also provide the code and all permission aer alredy created by aws via json code
+IF ONE USER IS CREATED BY DEFAULT WHICH PERMISSION HAS BEEN ASSINGED TO THAT USER?
+ANS-:users start with no permissions, and you must explicitly grant them the necessary permissions to perform specific actions.
+WHAT IS  THE DOMINATOR  POLICY?
+ANS-: 
