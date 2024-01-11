@@ -22,3 +22,17 @@ IF ONE USER IS CREATED BY DEFAULT WHICH PERMISSION HAS BEEN ASSINGED TO THAT USE
 ANS-:users start with no permissions, and you must explicitly grant them the necessary permissions to perform specific actions.
 WHAT IS  THE DOMINATOR  POLICY?
 ANS-: 
+WHAT IS ARN ? AND THAIR FILDS?
+ANS-: its a resource identifier used in aws to uniqualy identify and name aws resource
+arn:aws:s3:::example-buket 
+1 arn - prefix 
+2 aws - partition 
+3 s3 - service 
+4 us-west-2 - region 
+5 123456789012 - aws account id
+6 example buket - s3 buket name
+HOW MANY TYPE OF ARN PARTTION?
+ANS -: 1 aws- aws region 2 aws-ch-china region 3 aws-us-gov-aws gov cloud us region 
+HOW ARE TAGS? 
+ANS-: tag are key value pairs that you can attach to aws resource, tags are used to ideal and catogarize  resource 
+
