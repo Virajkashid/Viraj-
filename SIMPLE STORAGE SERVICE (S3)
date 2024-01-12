@@ -1,0 +1,27 @@
+DIFFIRENC BETWEEN BLOCK STORAGE AND OBJECT STORSGE?
+ANS-: 1 BLOCK STORAGE- 1) Block storage provides raw storage volumes that can be attached to compute instances such as EC2 (Elastic Compute Cloud) instances
+2) It operates at the block level, meaning it manages data in fixed-sized blocks and doesn't have any knowledge of the file structure.
+3) Block storage is commonly used for databases, file systems, and applications that require low-level access to storage.
+4)  Provides low-level access to raw storage and is often used as a block device attached to a specific compute instance.
+2 OBJECT STORAGE-: 1)Objects are stored with metadata and a unique identifier, and they are organized in a flat address space. 
+2)Object storage is ideal for scenarios where you need scalable and durable storage for large amounts of data, such as backup and restore, media storage, and content distribution.
+3)Stores data as objects with associated metadata and is suitable for unstructured data
+4)Provides seamless scalability, often with automatic load balancing and distribution across multiple servers.
+DIFFERNCE BETWEEN STATIC WEBSITE AND DYNAMIC WEBSITE?
+ANS-: STAIIC WEBSITE - 1) A static website consists of fixed, unchanging files that are directly served to the useR
+2)The content remains the same for all users and is created during the development phase.
+3) Static websites are often built using HTML, CSS, and sometimes JavaScript.
+4) Static websites tend to load faster because the content is already created and doesn't require server-side processing before being sent to the user's browser.
+DYNAMIC WEBSITE-1)Dynamic websites generate content on the server side in real-time based on user requests and interactions.
+2) Dynamic websites use server-side scripting languages (e.g., PHP, Python, Ruby) and may involve a database to retrieve and deliver content
+3) Dynamic websites can be slower to load because content is generated on the server in response to user requests.
+4)E-commerce sites, social media platforms, content management systems (CMS), web applications with interactive features.
+WHAT ARE THE NAMING RULE ?
+ANS-:1 NOT USE SPECIAL CHARACTERS 2 NOT USE DOMAIN NAME 3 NOT USE IP ADDRESS 4 NOT USE CAPITAL LATERS 
+WHAT IS THE MAJOR RESOURCE OF S3 BUKET ?
+ANS-:  An S3 bucket is a container for storing objects, and it serves as the fundamental resource in the S3 storage system. Buckets are used to organize and control access to your data stored in S3.
+WHY DO WE NEED TO HOST STATIC WEBSITES INSTED OF DYNAMIC WEBSITE?
+ANS-: static website provide us Simplicity and Cost-Effectiveness,Performance,Scalability,SecurityHosting on Object StorageContent Delivery:
+WHAT IS VERSIONING AND WHY DO WE NEED ?
+ANS-:, keep multiple versions of an object in a bucket. Each time you upload a new version of an object, Amazon S3 automatically archives the previous version. Versioning provides several benefits for data management, recovery, and protection:
+WHAT ARE THE OBJECT ANDTYPE OF OBJECT 
