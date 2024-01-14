@@ -24,4 +24,4 @@ WHY DO WE NEED TO HOST STATIC WEBSITES INSTED OF DYNAMIC WEBSITE?
 ANS-: static website provide us Simplicity and Cost-Effectiveness,Performance,Scalability,SecurityHosting on Object StorageContent Delivery:
 WHAT IS VERSIONING AND WHY DO WE NEED ?
 ANS-:, keep multiple versions of an object in a bucket. Each time you upload a new version of an object, Amazon S3 automatically archives the previous version. Versioning provides several benefits for data management, recovery, and protection:
-WHAT ARE THE OBJECT ANDTYPE OF OBJECT 
+WHAT ARE THE OBJECT AND TYPE OF OBJECT?
