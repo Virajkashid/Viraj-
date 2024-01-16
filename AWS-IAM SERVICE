@@ -1,28 +1,28 @@
-HOW MANY  RESOUECES DO WE HAVE IN IAM ?
+# HOW MANY  RESOUECES DO WE HAVE IN IAM ?
 ANS-: user,group,role,policies,access key.
-DEPLOYMENT MODEL IN IAM  ?
+# DEPLOYMENT MODEL IN IAM  ?
 ANS-:iam user,iam role,iam policy.
-IDENTITIES IN IAM ?
+# IDENTITIES IN IAM ?
 ANS-: user,role,group,resource based policies, identity fedaration ,access key,multifactor authentication 
-WHAT IS A IAM USER ?
+# WHAT IS A IAM USER ?
 ANS-:iam user is the entity that you present a a perticular user and intaract with the aws 
-WHAT IS THE IAM GROUP ?
+# WHAT IS THE IAM GROUP ?
 ANS-: iam group is the coleection of iam users ,its asinged the selected users in group .
-WHAT IS THE IAM POLICY?
+# WHAT IS THE IAM POLICY?
 ANS-: the collection of permission ,it define that actions are allow or denied
-WHAT IS THE IAM ROLE ?
+# WHAT IS THE IAM ROLE ?
 ANS-: An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS.
-WHERE DO WE ATTACH IDENTITY BASED POLICY?
+# WHERE DO WE ATTACH IDENTITY BASED POLICY?
 ANS-: we also attach the identiy based policy to user ,groups,and rolrs.
-WHERE DO WE ATTACH RESOURCE BASED POLICY? 
+# WHERE DO WE ATTACH RESOURCE BASED POLICY? 
 ANS-: s3 buket ,amazon s3 object , lamda function ,amazon sns topic.
-CAN WE BE ABLE TO CREAT POLICY VIA JSON CODE?
+# CAN WE BE ABLE TO CREAT POLICY VIA JSON CODE?
 ANS-: YES, but  aws also provide the code and all permission aer alredy created by aws via json code
-IF ONE USER IS CREATED BY DEFAULT WHICH PERMISSION HAS BEEN ASSINGED TO THAT USER?
+# IF ONE USER IS CREATED BY DEFAULT WHICH PERMISSION HAS BEEN ASSINGED TO THAT USER?
 ANS-:users start with no permissions, and you must explicitly grant them the necessary permissions to perform specific actions.
-WHAT IS  THE DOMINATOR  POLICY?
+# WHAT IS  THE DOMINATOR  POLICY?
 ANS-: 
-WHAT IS ARN ? AND THAIR FILDS?
+# WHAT IS ARN ? AND THAIR FILDS?
 ANS-: its a resource identifier used in aws to uniqualy identify and name aws resource
 arn:aws:s3:::example-buket 
 1 arn - prefix 
@@ -31,8 +31,8 @@ arn:aws:s3:::example-buket
 4 us-west-2 - region 
 5 123456789012 - aws account id
 6 example buket - s3 buket name
-HOW MANY TYPE OF ARN PARTTION?
+# HOW MANY TYPE OF ARN PARTTION?
 ANS -: 1 aws- aws region 2 aws-ch-china region 3 aws-us-gov-aws gov cloud us region 
-HOW ARE TAGS? 
+# HOW ARE TAGS? 
 ANS-: tag are key value pairs that you can attach to aws resource, tags are used to ideal and catogarize  resource 
 
