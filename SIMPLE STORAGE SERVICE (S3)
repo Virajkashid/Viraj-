@@ -35,5 +35,31 @@ ANS-: is an additional security feature in Amazon S3 that helps protect your dat
 1 Accidental Deletion Prevention 2 Enhanced Security 3 Data Protection and Compliance 4 Irreversibility of Deletion
 # WHAT IS S3 MULTIPART UPLOAD ?
 ANS-:  is a feature in Amazon Simple Storage Service (S3) that allows you to upload large objects in parts. Instead of uploading the entire object in a single request, you can break it into smaller parts and upload them in parallel. 
-# WHAT IS THE STORAGE CLASS IN S3 ?
+*# WHAT IS THE STORAGE CLASS IN S3 ?
 ANS-: 1 Standard 2 Intelligent-Tiering 3 One Zone-Infrequent Access 4 Glacier 5 Glacier Deep Archive 6 Reduced Redundancy Storage
+# WHAT IS ACL?
+ANS-: Access Control Lists are used to control access to AWS resources. They are a set of rules that define what actions are allowed or denied on a resource for a specific entity or group of entities.
+WHAY DO WE NEED ACL ?
+ANS-:  providing a means to control and manage access to resources. Here are some key reasons why ACLs are essential
+1 sequrity 2 data pritection 3 network serurity in vpc 4 custmization of access policies
+# WHAT IS A LIFE CYCLE POLICY ? WHY DO WE NEED TO USE LIFE CYCLE RULE ?
+ANS-:is a set of rules that define actions to be taken on objects stored in a bucket over time. These rules are used to automate the management of objects, typically to optimize storage costs, enhance data security, and ensure compliance.
+# HOW CAN WE MAKE OUR BUKET POLICY ?
+ANS-: To create a bucket policy in Amazon S3, you can define a JSON-based policy document that specifies the permissions for the bucket. 
+# HOW CAN WE GIVE PUBLIC ACESS TO OUR BUKET ? 
+ANS-: Giving public access to an Amazon S3 bucket involves configuring the bucket policy to allow certain permissions to the public. 
+# AWS PRICING FACTOR OF  THE S3 SERVICE.
+ANS-:important to understand these factors to estimate and manage your costs effectively.
+1 storsge class 2 storage usages 3 data transfer 4 transfer acceleration 
+# HOW CAN WE MAKE OUR OBJECT PUBLIC ?
+ANS-:  you can adjust the permissions on that specific object to allow public access
+# HOW CAN WE CONFIGURE THE STTIC WEBSIE LOG IN S3 ?
+ANS-:
+# WHATE IS CORS ?
+ANS-: IN AWS, CORS stands for Cross-Origin Resource Sharing. CORS is a security feature implemented by web browsers to control how web pages in one domain can request and interact with resources hosted on another DOMIAN 
+#  WHAT IS S3 INVENTORY?
+ANS-: S3 Inventory is a feature provided by Amazon Simple Storage Service (S3) that allows you to generate reports about your objects and their metadata within an S3 bucket
+# WHAT DOES MEAN BY REQUESTER PAY ?
+ANS-: "Requester Pays" refers to a feature that allows the owner of an S3 bucket to configure the bucket so that the requester (the one making the S3 API request) pays for the data transfer and request costs associated with accessing objects in the bucket.
+# WHAT IST SECONDRY WORD TO TRANFER ACCESRELATION ? WHY DO WE NEED TO USE THIS TRANSFER ACCESLERATION ?
+ANS-:Amazon S3 Transfer Acceleration is a feature of Amazon Simple Storage Service (S3) that uses the CloudFront content delivery network (CDN) to accelerate uploading and downloading of objects to and from your S3 bucket.
