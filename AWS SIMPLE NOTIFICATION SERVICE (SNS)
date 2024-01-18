@@ -1,0 +1,17 @@
+# WHAT IS SNS ?
+ANS -:  It is a fully managed messaging service that enables you to send messages or notifications from one application or system to multiple endpoints, such as email addresses, SMS (Short Message Service) messages, Amazon Simple Queue Service (SQS) queues, AWS Lambda functions, and more
+# WHY DO WE USE SNS? 
+ANS-:1 Decoupling Microservices 2 Event Notification 3 Email and SMS Notifications 4 Mobile Push fications
+# WHAT IS AN A AMAZON SNS FUNCTION AND HOW WE CAN CONFIGURE IT ?
+ANS-: STEP- 1 Create a Topic 2 Configure Topic Access Policy 3 Create a SubscriptioN 4 Confirm Subscription 5 test it 
+# DIFFENCE BETWEEN AMAZON SNS &  AMAZON SQS ?
+ANS-: 1) SNS - 1 SNS follows the publish-subscribe messaging model. Publishers send messages to topics, and subscribers receive messages from topics to which they are subscribed
+2 Messages in SNS can be simple text or structured as JSON.
+3  SNS supports various protocols for message delivery, including HTTP, HTTPS, email, SMS, Lambda, and more.
+4  SNS charges based on the number of messages published and the number of notifications delivered.
+2) SQS - 1 SQS follows the message queue model. Messages are sent to a queue, and consumers (workers) retrieve and process messages from the queue
+2 Messages in SQS are plain text, and the content is opaque to SQS.
+3 SQS is designed for decoupling the components of a distributed system.
+4 SQS charges based on the number of messages sent, received, and stored in the queues
+# WHAT ARE THE DIFFIRENT DILIVERY FORMATE AND TRANSPORT IN AWS SNS?
+ANS-: 1 Raw Message Delivery 2 JSON Message Delivery 3 Application-Specific Message Formats 
