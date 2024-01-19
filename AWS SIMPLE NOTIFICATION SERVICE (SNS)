@@ -15,3 +15,21 @@ ANS-: 1) SNS - 1 SNS follows the publish-subscribe messaging model. Publishers s
 4 SQS charges based on the number of messages sent, received, and stored in the queues
 # WHAT ARE THE DIFFIRENT DILIVERY FORMATE AND TRANSPORT IN AWS SNS?
 ANS-: 1 Raw Message Delivery 2 JSON Message Delivery 3 Application-Specific Message Formats 
+# WHAT IS DIFFRENC BETWEEN SNS FIFO AND STANDERD WHILE CREATING THE SNS TOPIC ?
+ANS-: 1 FIFO SNS TOPIC - 1  FIFO topics (First-In-First-Out) provide exactly-once message delivery 
+2 his ensures that a message is delivered exactly once and remains available until a consumer acknowledges it.
+3  FIFO topics guarantee the order in which messages are sent. Messages are delivered in the order they are published.
+2 STANDERD SNS TOPIC - 1 Standard topics provide at-least-once message delivery. 
+2 This means that messages can be delivered more than once in case of failure or retries.
+3 There is no guarantee of message ordering. Messages may be delivered out of order.
+# ONE OF WHICH SERVICE ARE CONFIGURED WITH THE AWS SNS ?
+ANS-: 1 amazon s3 2 cloud watch 3 amazon sqs 4 aws lamda 5 cloud formation 6 cloud trail 7 aws iam 
+# WHAT IS 10 DCL IN AWS ?
+ANS-: If "10 DCL" is a specific term, acronym, or feature introduced in AWS after my last update, I recommend checking the official AWS documentation or relevant AWS forums for the most up-to-date information
+# WHAT ARE FIFO TOPICS ON SNS ?
+ANS-:In AWS SNS (Simple Notification Service), FIFO (First-In-First-Out) topics are a type of SNS topic that provides exactly-once message delivery and strict message ordering
+# WHAT IS SNS MOBILE PUSH ?
+ANS-:  SNS Mobile Push is a feature that enables you to send push notifications to mobile devices, such as smartphones and tablets, across various platforms
+# ON WHICH DILIVERY METHOD DO WE USE AND CONFIGURE THE SUBSCRIPTION ?
+ANS-: In AWS SNS (Simple Notification Service), when you create a subscription to an SNS topic, you can choose from different delivery protocols based on the type of endpoint you want to send notifications to
+ 
