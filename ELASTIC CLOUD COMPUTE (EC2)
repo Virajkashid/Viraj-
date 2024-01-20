@@ -58,5 +58,104 @@ ANS-: 1 Manage Snapshot Retention 2 Use Lifecycle Policies 3 Use Incremental Bac
 # WHAT IS THE LIFE CYCLE MANGER IN SNAPSHOT ?
 ANS-: a service that helps you automate the lifecycle management of Amazon Elastic Block Store (EBS) snapshots. DLM enables you to define and manage snapshot retention policies, making it easier to automate the creation, retention, and deletion of EBS snapshots
 # HOW DOSE THE AMAZON LIFE CYCLE MANGER WORK ?
+ANS-: 
+ # DIFFERENCE BETWEEN SEQURITY GROUP AND NACL ?
+ANS-: 1) SEQURITY GROUP-
+1 Operate at the instance level. They are associated with individual EC2 instances and provide stateful filtering of traffic.
+2 Use rules that are evaluated based on ALLOW rules. By default, all inbound and outbound traffic is denied unless explicitly allowed
+3 Allow rules only. You specify the allowed sources (IP ranges or other SGs) and ports for inbound and outbound traffic.
+4  Are stateful. If you allow inbound traffic for a specific connection, the outbound response for that connection is automatically allowed
+2) NETWORK ACCESS CONTROAL LISTS-
+1 Operate at the subnet level. They are associated with subnets and provide stateless filtering of traffic
+2  Use rules that are evaluated in a rule-number order. Rules are stateless, so you must define separate inbound and outbound rules
+3 Support both allow and deny rules. You can define both ALLOW and DENY rules for inbound and outbound traffic based on source/destination IP, port, and protocol.
+4 Are stateless. You must create separate inbound and outbound rules for each allowed connection, as there is no automatic response rule like in SGs.
+# WHAT ARE NACL AND ITS TYPE ?
+ANS-:  A Network Access Control List is a stateless, numbered list of rules that control traffic at the  subnet level in a Virtual Private Cloud (VPC).
+TYPE - 1 Statelessness 2 Rule Evaluation 3 Rule Structure 4 Default Rules Associating with Subnets 
+# HOW MANY IP ADRESS CAN WE ATTACHED TO THE INSTANCES?
+ANS-: the number of IP addresses that can be attached to an instance depends on the instance type, the type of IP addresses, and the network configuration.
+# HOW MANY TYPE OF VOLUME STATE DO WE HAVE ?
+ANS-: 1 CREATING 2 AVAILABLE 3 IN USE 4 DELETING 5 DELETED  6 ERROR 
+# WHAT IS THE KEYPAIR AND ITS TYPE ?
+ANS-:a key pair is a set of public and private keys that you can use to securely connect to Amazon Elastic Compute Cloud (EC2) instances
+TYPE- 1 EC2 Key Pairs 2 Windows Key Pairs
+# WHAT IS LOAD BALNCER AND ITS TYPE?
+ANS-: a load balancer is a service that distributes incoming network traffic across multiple targets (such as EC2 instances) to ensure that no single target is overwhelmed with too much traffic.
+TYPE- 1 Classic Load Balancer  2 Application Load Balancer 3 Network Load Balancer 4 Gateway Load Balancer 
+# HOW DOSE THE LOAD BALNCER WORK IN BAKGROUND ?
 ANS-:
- 
+# FEATURES OF LOAD BALNCERS ?
+ANS-: 1 High Availability 2 Fault Tolerance  3 Auto Scaling Integration  4 Security  5 Logging and Monitoring 6 IPv6 Support
+# WHAT IS ASG AND ITS TYPE ?
+ANS-:  An Auto Scaling Group is a service that automatically adjusts the number of Amazon Elastic Compute Cloud (EC2) instances in a group based on the desired capacity, scaling policies, and health of the instances.
+TYPR OF ASG - 1 On-Demand Instances: 2 Spot Instances 3 Mixed Instances Policy 
+# WHAT IS HEALTH CHECK ?
+ANS-:  a health check refers to a process of monitoring and assessing the health and availability of resources such as instances, applications, or services within a system.
+# WHAT IS THE THRESHOLD ?
+ANS-: the term "threshold" typically refers to a predefined limit or condition that, when crossed or met, triggers a specific action or alert.
+# WHAT IS THE GROUP OF LB ?
+ANS-: 
+# WHY DO WE PREFER ALB OVER ALB  ?
+ANS-:  an Application Load Balancer (ALB) and a Network Load Balancer (NLB) in Amazon Web Services (AWS) depends on your specific use case and requirements.
+WE ALSO PREFER ALB BECOUS - 1 Layer 7 Load Balancing 2 HTTP/HTTPS Traffic Handling 3 WebSockets Support 4 Integration with AWS Services 5 Content-Based Routing 6 User Authentication and Authorization
+# DEFFERENCE BETWEEN WEB SRVER AND APPLICATION SERVER ?
+ANS-: 1) WEB SERVER-
+1 Primarily handles HTTP requests, serving static content (HTML, CSS, images, etc.) to clients (browsers)
+2  Deals with static content, including handling simple requests and responding with pre-existing files
+3 Generates dynamic content on-the-fly by executing application code.
+4 Typically communicates with the web server using protocols like FastCGI, AJP (Apache JServ Protocol), or via HTTP.
+2) APPLICATION SERVER-
+1 Focuses on executing application logic and processing dynamic content
+2  Executes application-specific code, manages dynamic content generation, interacts with databases, and performs operations based on business logic.
+3  Generates dynamic content on-the-fly by executing application code. 
+4  Typically communicates with the web server using protocols like FastCGI, AJP (Apache JServ Protocol), or via HTTP.
+# WHAT IS THE TARGATE GROUP ?
+ANS-:  a target group is a logical grouping of targets, such as Amazon EC2 instances, that you register with a load balancer.
+# WHAT IS THE DESIRED CAPACITY IN ASG ?
+ANS-: Desired Capacity" refers to the number of Amazon EC2 instances that you want the Auto Scaling group to maintain at all times. 
+# HOW MANY TYPE OF THE SCALING OPTION ?
+ANS-: 1 MANUAL SCALING 2 DYNAMIC SCALING 
+# SCALING PLANS ?
+ANS-:
+# TYPE OF AUTO SCALING ?
+ANS-: 1 Dynamic (or Reactive) Scaling  2 Scheduled Scaling
+# DIFFERENCE BETWEEN VERTICAL SCALING AND HORIZONTAL SCALING ?
+ANS-: 1) VERTICAL SCALING -
+1 Vertical scaling involves increasing the capacity of a single server or resource by adding more power (CPU, RAM, storage, etc.) to the existing server 
+2 Efficient utilization of resources on a single, powerful server. 
+3 Single instances can be more resilient to failures, as there is no reliance on multiple servers 
+4 Upgrading to larger instances may be cost-effective for certain workloads, but costs can increase significantly as resource requirements grow.
+2) HORIZONTAL SCALING -
+1  Horizontal scaling involves adding more servers or instances to your application or system to distribute the load. 
+2  Allows for virtually unlimited scalability by adding more instances.
+3 Improved fault tolerance and availability as workloads are distributed across multiple instances. 
+4 Can be more cost-effective for handling variable workloads. 
+# DIFFERENCE BETWEEN AMI AND SNAPSHOT ?
+ANS-: 1) AMI-
+1  An AMI is a pre-configured virtual machine image that contains the necessary information to launch an instance, including the operating system, application server, and applications.
+2 AMIs encompass the entire system image, including the operating system, software, and any data stored on the root volume.
+3  Launching instances with predefined configurations, creating golden images, and ensuring consistency across environments.
+4 An AMI may depend on specific hardware configurations, such as the instance type it was originally created from.
+2) SNAPSHOT -
+1 An EBS snapshot is a point-in-time copy of an Amazon Elastic Block Store (EBS) volume. It captures the entire volume, including all data and configurations.
+2 EBS snapshots capture the contents of an individual EBS volume at a specific point in time.
+3 Data backup, disaster recovery, volume migration, and creating new volumes with specific data and configurations.
+4 EBS snapshots are independent of specific hardware configurations and can be used to create volumes of various sizes and types.
+# WHAT IS DEFFERENC BETWEEN  EBS/EFS/S3 ?
+ANS-: 1) Elastic Block Store (EBS)-
+1 EBS provides block-level storage volumes that are attached to Amazon EC2 instances
+2  EBS volumes are typically attached to a single EC2 instance, making them suitable for use cases where data needs to be tightly coupled with a specific instance.
+3  EBS volumes come in different types (e.g., General Purpose SSD, Provisioned IOPS SSD, Magnetic) with varying performance characteristics, allowing you to choose the right type for your specific needs.
+2)Elastic File System (EFS)-
+1  EFS is a fully managed file storage service that provides scalable and shared file storage for multiple EC2 instances
+2  EFS volumes can be mounted by multiple EC2 instances simultaneously, providing a shared file system across instances.
+3  EFS is designed to scale automatically with the number of concurrently accessing instances. It provides consistent low-latency performance across various workloads.
+3) Simple Storage Service (S3)-
+1 S3 is an object storage service designed to store and retrieve any amount of data from anywhere on the web.
+2 S3 is designed for internet-scale storage and can be accessed over the internet. It is not directly attached to EC2 instances but is accessible via APIs.
+3 S3 is highly scalable, durable, and available. It provides low-latency access to stored objects and is suitable for large-scale, globally distributed storage needs.
+
+
+
+
