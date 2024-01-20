@@ -17,4 +17,37 @@ ANS-: 6 TYPES OF INSTANC STATE CODE HERE  IS
 1 0: pending 2 16: running 3 32: shutting-down 4 48: terminated 5 64: stopping 6 80: stopped
 # WHAT IS MEANING OF SERVER HIBERNATING MODE ?
 ANS-:  server operating systems, hibernation typically refers to a power-saving state where the contents of the system's memory (RAM) are saved to disk
-
+# WHAT IS KMS ?
+ANS-:AWS Key Management Service is a fully managed service that makes it easy for you to create, control, and manage cryptographic keys used to encrypt your data. It integrates with other AWS services and provides a centralized way to manage cryptographic keys for your applications.
+# AWS AMAZON EC2 INSTANC TYPE ?
+ANS-: 1 General Purpose Instances 2 Compute Optimized Instances 3 Memory Optimized Instances  4 Storage Optimized Instances 5 Accelerated Computing Instances 6 Instances for AWS Graviton Processors
+# HOW MANY TYPE OF STATUS CHECK HAPPEN IN AWS ?
+ANS-: 2 TYPE OF CHEC STATUS HERE IS 1 System Status Checks 2 Instance Status Checks 
+# WHEN WE SEE THE GLOBALE VIEW OPTION IN EC2 SERVICE ?
+ANS-:
+# WHEN WE LOGGED INTO THE CLOUD ACCOUNT BY DEFAULT WHY WE ALWAYS JUMP IN NORTH VERGINIA REGION WHY ITS MOST POPULER ?
+ANS-:automatically directs users to the North Virginia (us-east-1) region by default when they log in to the AWS Management Console.
+1 Historical Significance 2 Service Availability 3 Network Connectivity 4 Pricing
+# WHAT ARE EBS VOLUME AND ITS TYPE ?
+ANS-:Amazon Elastic Block Store (EBS) is a block storage service provided by AWS that allows you to create and attach persistent block-level storage volumes to Amazon EC2 instances
+TYPE OF EBS- 1 General Purpose SSD 2 Provisioned IOPS SSD  3 Throughput Optimized HDD 4 Cold HDD Cold HDD 5 Magnetic (standard)  
+# PURPOSE OF USING EBS VOLUME ?
+ANS-: 1 Data Persistence 2 Boot Volumes 3 Data Storage for Applications 4 Database Storage 5 Backup and Snapshots 6 High Performance Workloads 7 Scalability 
+# HOW MANY TYPE OF PURCHASING OPTION DO WE HAVE IN EC2 INSTANC ?
+ANS-: 1 On-Demand Instances 2 Reserved Instances (RIs) 3 Spot Instances 4 Dedicated Hosts 5 Savings Plans 6 Instances Purchased Through AWS Marketplace 
+# DIFFERNCE BETWEEN AWS AMI IMAGES AND AWS TEMPLETE ?
+ANS -: 1) AMAZON MACHINE IMAGE (AMI) -
+1 An AMI is a pre-configured virtual machine image, which includes an operating system, application server, and applications.
+2  AMIs are primarily used for launching EC2 instances.
+3  You can create an AMI from an existing EC2 instance or build a custom AMI by bundling your configurations and applications.
+4 AMIs are useful for creating consistent environments, enabling scalability, and ensuring repeatability in your infrastructure.
+2) AWS TEMPLETE-
+1 An AWS template is a JSON or YAML formatted text file that describes the set of resources and properties needed to run an application or workload on AWS.
+2 Templates are used with AWS CloudFormation, a service that helps you model and provision AWS infrastructure in a safe, predictable, and scalable manner. Templates define the infrastructure as code. 
+3 ou write templates to define the AWS resources, their relationships, and the properties necessary for your application
+4 Templates are used for infrastructure as code (IaC), enabling you to version and manage your infrastructure in a systematic way.
+# WHAT IS NIC AND ITS TYPE ?
+ANS-: Network Interface Controller or Network Interface Card. It is a hardware component or a virtual entity that allows a device, such as an Amazon Elastic Compute Cloud (EC2) instance, to connect to a network
+TYPE OF NIC- 1 Primary Network Interface 2 Additional Network Interfaces (SECONDRY)
+# 
+ 
