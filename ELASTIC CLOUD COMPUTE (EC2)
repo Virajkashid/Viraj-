@@ -49,5 +49,14 @@ ANS -: 1) AMAZON MACHINE IMAGE (AMI) -
 # WHAT IS NIC AND ITS TYPE ?
 ANS-: Network Interface Controller or Network Interface Card. It is a hardware component or a virtual entity that allows a device, such as an Amazon Elastic Compute Cloud (EC2) instance, to connect to a network
 TYPE OF NIC- 1 Primary Network Interface 2 Additional Network Interfaces (SECONDRY)
-# 
+# WHAT IS ELASTIC IP ? AND WHY WERE WE USED ?
+ANS-: an Elastic IP (EIP) is a static IPv4 address designed for dynamic cloud computing. It is associated with your AWS account rather than a specific instance
+# WHAT IS SNAPSHOT AND WHY WE USE IT?
+ANS-: snapshot is a point-in-time copy of the data stored on an EBS volume. EBS snapshots are useful for backup, recovery, and migration purposes
+# HOW CAN WE SAVE MONY IN SNPSHOT COSTING IF AN AUTOMATED SNAPSHOT CREATED ?
+ANS-: 1 Manage Snapshot Retention 2 Use Lifecycle Policies 3 Use Incremental Backups 4 Monitor Snapshot Costs 5 Regularly Review and Clean Up
+# WHAT IS THE LIFE CYCLE MANGER IN SNAPSHOT ?
+ANS-: a service that helps you automate the lifecycle management of Amazon Elastic Block Store (EBS) snapshots. DLM enables you to define and manage snapshot retention policies, making it easier to automate the creation, retention, and deletion of EBS snapshots
+# HOW DOSE THE AMAZON LIFE CYCLE MANGER WORK ?
+ANS-:
  
