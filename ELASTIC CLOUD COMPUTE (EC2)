@@ -1,0 +1,20 @@
+# WHAT IS EC2 WHY DO WE NEED EC2 SERVICE IN CLOUD COMPUTING ?
+ANS-: it provides resizable compute capacity in the cloud. Essentially, EC2 allows users to rent virtual machines (known as instances) on which they can run their applications.
+WHY WE USE 1 Scalability 2 Flexibility 3 Cost-Effectiveness 4 Security 5 Global Reach
+# FEATURES OF AMAZON EC2 ?
+ANS-: 1 Virtual Servers  2 Scalability 3 Elastic Load Balancing 4 Amazon Machine Images (AMIs) 5 Auto Scaling 6 Security Groups and Network ACLs
+# WHAT IS HYPERVIOSR AND ITS TYPE ?
+ANS-: A hypervisor, also known as a Virtual Machine Monitor (VMM), is a software or hardware component that enables the creation and management of virtual machines (VMs) on a physical host machine
+TYPE - 1 Bare Metal Hypervisor 2 Hosted Hypervisor
+# WHRE WE USR HYPERVISOR ?
+ANS-: hypervisors are used as a fundamental component of the underlying infrastructure to enable the virtualization of computing resources.
+# STEPS TO CREST EC2 INSTANC ?
+ANS-: 1 LOG IN CONSOL 2 CLICK ON CREAE INSTANC SYMBOL 3 Choose an Amazon Machine Image (AMI) 4 Choose an Instance Type 5 CONFIGURE INSTANC 6 ADD STORAG 7 CONGIGURE SEQURITY GROUP 8 ADD  KEY 9 LOUNCH INSTANC 10 VIEW INSTANC 
+# EC2 INSTANC STATE ?
+ANS-: 1 PENDING 2 RUNNING 3 STOPPING 4 STOPPED 5 TEMINATING 6 TERMINATED 7 SHUTTING DOWN 
+# HOW MANY TYPE OF EC2 INSTANC-STATE CODES ?
+ANS-: 6 TYPES OF INSTANC STATE CODE HERE  IS 
+1 0: pending 2 16: running 3 32: shutting-down 4 48: terminated 5 64: stopping 6 80: stopped
+# WHAT IS MEANING OF SERVER HIBERNATING MODE ?
+ANS-:  server operating systems, hibernation typically refers to a power-saving state where the contents of the system's memory (RAM) are saved to disk
+
