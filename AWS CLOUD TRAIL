@@ -18,6 +18,8 @@ STEPS-1 Access CloudTrail 2 Select or Create a Trail 3 Edit the Trail 4 Modify E
 # REAL TIME USE CASE OF CLOUD TRAIL ?
 ANS-:1 Security Monitoring and Incident Response 2 Compliance and Governance 3 Operational Visibility and Troubleshooting 4 Data Privacy and Access Monitoring
 # WHAT IS CLOUD TRAIL EVENT HISTORY?
+ANS -:The CloudTrail Event History specifically refers to the recorded events and their details. Here are some key points about AWS CloudTrail Event History
+
 ANS-: It is a convenient way to view, search, and analyze the history of events captured by CloudTrail. The Event History is retained for 90 days
 # WHAT IS LOG FILE INTEGRITY VALIDTION IN CLOUD TRAIL ?
 ANS-:Log File Integrity Validation is a security feature designed to help ensure the integrity of your CloudTrail log files. It provides a way to detect and alert on potential tampering or unauthorized changes to your log files
