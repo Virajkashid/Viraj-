@@ -21,5 +21,26 @@ ANS-:  The default VPC is designed to provide a ready-to-use network environment
 ANS-: an Internet Gateway (IGW) is a component of a Virtual Private Cloud (VPC) that allows communication between instances within the VPC and the internet.
 # WHAT IS NETWORK ACL IN VPC ?
 ANS-:  a Network Access Control List (ACL) is a virtual stateful firewall that controls inbound and outbound traffic at the subnet level. 
-  
-  
+# WHAT IS SEQURITY GROUP IN VPC?
+ANS-:  a Security Group is a virtual firewall for your Amazon Elastic Compute Cloud (EC2) instances that operates at the instance level.
+# WHAT IS ELASTIC IP ADDRESS IN VPC ,AND WHY DO WE USE IN REALTIME EXAMPLE ?
+ANS-:  an Elastic IP address (EIP) is a static IPv4 address designed for dynamic cloud computing. It is associated with your AWS account, and you can allocate it to an instance in a Virtual Private Cloud (VPC). 
+EXAMPLE- a web application hosted on an EC2 instance, and you want to associate a fixed public IP address with it for external access. You allocate an Elastic IP address and associate it with your EC2 instance.
+# CAN WE ATTACH ONE PRODUCTION ELASTIC IP TO THE NEW PROD SERVER ?
+ANS-: Yes, in AWS,WE can certainly associate an Elastic IP (EIP) with a new production server. The purpose of Elastic IPs is to provide a static public IP address that you can quickly reassign to different instances
+# HOW DOSE ELB EFFECT IN VPC ?
+ANS-: 
+# WHAT ARE THE LIMITATIONS OF VPCS GATEWAY AND SUBNET ?
+ANS-: 1) GATEWAY - 1 Internet Gateways 2 Virtual Private Gateways  3 Direct Connect Gateways
+2) SUBNET - 1 Size of Subnet 2 Private and Public Subnets 3 IPv6 Limitations 4 Elastic Network Interfaces 
+# WHAT IS PUBLIC IP AND WHY WE USE IT?
+ANS-:  a public IP address is an IP address that is routable over the Internet, allowing communication between resources and clients on the public Internet. Public IP addresses are used to identify and communicate with instances, services, or resources that are directly accessible from the global network.
+# EXPLAIN BASTION HOST CONCEPT ?
+ANS-:  a bastion host, also known as a jump box, is a server that is set up and configured to allow secure access to private resources, such as instances in a Virtual Private Cloud (VPC). 
+# WHEN DO WE NEED TO CREATE A NEW CUSTOMISED VPC?
+ANS-:   new customized Virtual Private Cloud (VPC) in AWS is a common practice, and there are several scenarios where it might be necessary or beneficial to create a custom VPC
+# WHAT IS PEERING  WHY DO WE NEED TO PEER AT TWO VPCS?
+ANS-: VPC peering is a networking connection between two Virtual Private Clouds (VPCs) that enables them to communicate with each other as if they were part of the same network. VPC peering allows the instances in the peered VPCs to communicate using private IP addresses, without the need for internet-facing gateways, Network Address Translation (NAT), or public IP addresses.
+# WHAT IS VPN  WHERE DO WE USE VPN TUNNEL ?
+ANS-: a Virtual Private Network (VPN) is a secure and encrypted connection between your on-premises network or data center and your VPC (Virtual Private Cloud). A VPN creates a virtual tunnel over the internet, allowing secure communication between your local network and resources within your AWS VPC.
+
