@@ -1,0 +1,25 @@
+# WHAT IS VPC ?
+ANS-:  Virtual Private Cloud. It is a cloud computing service model that provides a private, isolated network in the cloud.
+# WHAT ARE THE SUBNET WHEN WORKING WITH VPC ?
+ANS-: work with Virtual Private Clouds (VPCs), subnets are used to divide the IP address range of your VPC into smaller, more manageable segments. 
+# WHAT IS NAT DEVICE ?
+ANS-: NAT DEVICE  is a managed service that allows resources within a private subnet in a (VPC) to initiate outbound traffic to the internet while preventing inbound traffic from the internet.
+# DEFFERNC BETWEEN STATEFUL AND STATELESS FILTERING ?
+ANS-: 1) STATEFULL FILTERING -
+1 Stateful filtering keeps track of the state of active connections.
+2 Stateful firewalls dynamically evaluate incoming and outgoing traffic against the state table. 
+3 Stateful firewalls automatically handle related traffic for established connections.
+4  AWS security groups are an example of stateful filtering.
+2) STATELESS FILTERING-
+1 Stateless filtering does not maintain a state table or track the state of connections.
+2 Stateless firewalls make decisions based on predefined rules that are applied to individual packets.
+3  Stateless firewalls do not automatically handle related traffic.
+4  AWS Network Access Control Lists (NACLs) operate in a stateless manner. 
+# WHAT IS ADVANTAGES OF USING DEFAULT VPC?
+ANS-:  The default VPC is designed to provide a ready-to-use network environment for your instances without requiring you to manually configure subnets, route tables, and other network settings. Here are some advantages of using the default VPC in AWS
+# WHAT IS INTERNET GATEWAY IN VPC ?
+ANS-: an Internet Gateway (IGW) is a component of a Virtual Private Cloud (VPC) that allows communication between instances within the VPC and the internet.
+# WHAT IS NETWORK ACL IN VPC ?
+ANS-:  a Network Access Control List (ACL) is a virtual stateful firewall that controls inbound and outbound traffic at the subnet level. 
+  
+  
