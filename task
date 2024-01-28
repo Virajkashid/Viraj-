@@ -1,0 +1,70 @@
+EC2 TASK -
+#1.Create an Application Load Balancer with mobile, laptop, tablet, clothes, shoes pages?
+Ans. 1. Create the instance 
+3 .install httpd service for laptop,mobile,tablet,clothes,shoes page
+4.write cript in instance
+5.#!/bin/bash
+sudo -i
+yum update all -y
+yum install httpd -y
+echo "hello world, welcome to my Homepage $HOSTNAME" > /var/www/html/index.html 
+systemctl start httpd.service
+systemctl enable httpd.service
+systemctl status httpd.service
+6. take the ssh of the instance and start the service and check it 
+7. after create the instance , create the application load balancer.
+8. configure the load balance .
+9. Hit the website and check .
+#2.Create a Simple Application Load Balancer with Auto scaling and host any free css template.
+Ans.1. Create the instance  and install httpd services.
+2.write cript in instance 
+3.#!/bin/bash
+sudo -i
+yum update all -y
+yum install httpd -y
+echo "hello world, welcome to my Homepage $HOSTNAME" > /var/www/html/index.html 
+systemctl start httpd.service
+systemctl enable httpd.service
+systemctl status httpd.service
+3.take the ssh of the instance and start the services .
+4.create the application load balancer.
+5.configure the load balance.
+6.Go to auto scaling load balancer, and assign the instance and security group.
+7.in configuration group size, and review the auto scaling load balancer.
+8.after create wait for health status of the instance.
+9.Put the stress on the instncae and see if the no instance in add or not.
+#3.Create a simple classic Load Balancer. 
+Ans. 1. Create a instance and launch calssic laod balancer.
+2.configuration the CLB name,network, security group,listern routing,instance.
+3.hit the web site and check the working of CLB.
+#4.Create an AMI Image, with name(tomcat-ami-v1) from an existing running tomcat server.
+Ans. 1. Create the instacne of tomact serer.
+2. go to action--> image and template --> image name
+3. AMI image has been successfull create and launch acording to your requirement.
+#5.Host any customised HTML web page in Ubuntu server. 
+Ans. 1. create the instance of ubuntu server
+2. install nginx in ubuntu server
+3. sudo apt install nginx
+4. statu the services and hit to the IP address to check the html page of nginx.
+#6.Host any customised HTML web page in RedHat 9 server.
+Ans. 1. crete the instacne of redhat 
+2. install the httpd sservies in the instance.
+3. start the servcie on the instance 4. hit the ip address to check the rad hat index page on web browser.
+#7.Host any customised HTML web page in windows 11 server.
+ANS.1 create instance 
+#8.Create a one EC2 Instance with debian family, create an 1000 no of jarvis.txt files and mount the existing S3 bucket into the same server and do upload all the jarvis.txt files into s3 bucket using aws command line tool
+Ans.1create instance 
+2.connect ec2 instance 
+3.crete 1000 'jarvis.txt'file
+4.mount the file in s3 buket 
+5.uplot the files in bucket 
+#9.Do task number 1 in AWS EC2 in scripting. Automate the whole server level configuration.
+Ans.1. install aws cli 
+2.configure it 
+3.configure the server 
+4.check the instance creatimg and terminating 
+#10.If your server lost the key-pair, and you wanna take a ssh of that server, then how can you recover the key and take a ssh. (Want the practical, with documentation)
+ANS.1.create new key pair 
+2.and accossiate the key with instance 
+3.stope the instance and detach root volume 
+4.create new instace and attache root volume 
