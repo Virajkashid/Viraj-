@@ -164,6 +164,48 @@ Ans. 1. Create the vpc and launch the instance
 4.attttach to the instance 
 5.create the endpoint in vpc and try to get access to the s3 bucket.
 
+IAM-
+1 . Create a policy to access all objects in a specific bucket
+Ans – 1. Create s3 buket 
+2. create policy in json  
+3. and take the bukets arn 
+#2. Create a policy to access only 2 objects in a specific bucket.
+Ans- 1. Create the buket and upload 2 object
+2. create policy in json 
+3. in code give the bukets arn and give specific objects arn in code to acess the bucket.
+ #3.Create a policy to deny the access of Specific bucket.
+Ans- 1.create buket and add object 
+2.create policy in json for deny the user and object inside yhe bucket.
+#4.Create policy to create the user only and can attach policy to them.
+Ans-1.create IAM user with admistretive acess 
+2.sing in the user and check the permission 
+#5.Create a policy to place the user in a group only.
+Ans- 1.create IAM user and attach group policy to user 
+2. sing in to the user and check the permission 
+#6.Policy to get "read" access of all users, groups but not policy.
+Ans -1. Create the policy for specific service 
+2. that policy attache with user 
+#7.Policy to get access to billing, ec2 and cloudwatch.
+Ans-1. Create the policy to the account 
+2. select the permission of billing to ec2 ,cloud watch billing in aws 
+3. sing in the user check their permission and whatch billing dashboard.
+#8.How to give access only to northern virginia.
+Ans-1.create policy in json 
+2.edite the code give ip reng of noth verginia as source ip 
+4.attache the usre 
+#9.Create a policy like when users are login into console, Without MFA not a single IAM user has able to access any AWS kind of aws services, he gots an permission denied error.
+Ans- 1. Create policy in json 
+2.edite code json 
+3. add  action ‘*’, resource ‘*’,
+4. add aws:multifactorauthpresent:”fails”
+5.attach policy to the user 
+6.login to user and check permission 
+#10.Create a resource based policy and attach to S3_B16 Bucket & only sunny user can able to access that bucket.
+Ans-1. Create  IAM policy for s3 access
+2.creat policy to sunny user 
+3.attache policy to s3 bucket 
+4.try to access the user sunny 
+
 
 
 
