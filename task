@@ -115,5 +115,56 @@ ANS-1.create topic
 4.create topic policy 
 5.test the message 
 
+USER-
+#1.Add four different users in the organisation account.
+ANS-1.create IAM user 
+2.add in group 
+#2.Add one user without permission.
+ANS-1.create  user without policy 
+#3.Add user with console & programmatic user.
+ANS-1.create user with console log in 
+2. create user with programmatical access
+#4.If IAM users are created w/o password, then how can you set the password of that IAM user as an Admin. (W/O deleting user)
+ANS-1.IAM dashboard select user 
+2. sesequrity credentials 
+3.choose manage password and set new password 
+#5.Add User Without Any permission (permission denied)
+ANS-1 .create the user 
+2. attach deny policy 
+#6.S3 Read Only Access
+ANS-1.creat user 
+2. attache  s3 read only policy to user
+3.log in to the user consol and check the permission 
+#7.Jarvis Admin Access
+ANS-
+#8.Add User with Programmatic Access
+ANS-1.create user 
+2.cet access key and log in in cli mode 
+3.aws config and successfully log in 
+
+VPC -
+#1.Create a 5 VPC with different networks.
+Ans. 1. create the vpc.
+2.Create the subnet in the vpc
+3.create the IG and attach to the vpc
+4.repeat this flow 4 time 
+#2.Create a customised VPC and enable the DHCP & DNS option set.
+Ans. 1. Create the vpc,subnet ,igw attached the vpc 
+ 2. Go to vps setting and edite the dhcp and dns
+#3.Enable the flow logs of newly created custom VPC.
+Ans.1. create the vpc 
+2.flow log seeting edite 
+3.configure the flow lof such as name , destination.
+4.save the change and review the flow log. 
+5.check the log that stor in you s3 bucket.
+#4.Access the all S3 Buckets in Particular single customised VPC w/o internet, so how can we achieve it ?
+Ans. 1. Create the vpc and launch the instance
+2.take the ssh of the instance and check the internet, hostname.
+3.create the role for ec2 instance with s3 bucket full access 
+4.attttach to the instance 
+5.create the endpoint in vpc and try to get access to the s3 bucket.
+
+
+
 
 
