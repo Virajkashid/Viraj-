@@ -68,3 +68,52 @@ ANS.1.create new key pair
 2.and accossiate the key with instance 
 3.stope the instance and detach root volume 
 4.create new instace and attache root volume 
+
+S3 
+#1.Implement MFA on Bucket when users are going to delete any objects, then he needs an Approval from MFA Code.
+ANS-1. Create bucket 
+2.enable versioning 
+3.create the json poliy fr mfa
+4.edite code 
+Action :”s3:deleteobject”
+Resource :”arn:aws:s3::your-bucket-name/*”
+Bool:”aws:multifactorauthpresnt”:false
+Bool:”aws:multifactorauthpresnt”:true
+5.atached policy to user 
+6.config the mfa protection 
+7.chech mfa via email
+#2.Create a Bucket with cli commands & upload the object from cli mode.
+ANS-1.go to the cli mode 
+#3.Complete one project with server less static website hosting, with deployment & after deployment management of the website in backend side. Make a proper document of that project.
+ANS-
+
+CLOUD TRAIL –
+#1.Configure and enable the trail for multi region in your both staging and production account.
+ANS- 1 create trail 
+2.create trail separetly for user account  
+#2.Configure and enable the trail for the only hyderabad region in your both staging and production account.
+ANS-1.
+#3.Create a trail for one service S3 by default it enables all logging features, you guys disable some features of logging.
+ANS-1.create trail 
+2.give s3 buket destination for store log 
+3.select the event and create 
+4.select trail and edit the seating
+
+AWS SNS:-
+#1.Configure SNS with s3 static website.
+Ans-1.create sns topic  subscribe it 
+2.congfig the sns policy 
+3.enable notication in s3 
+#2.Configure SNS with Email server level notification with Load Balancer configuration .
+ANS-1.create sns topic and subcribe that 
+2.set the load balancer notication 
+3.chech the email notivcation 
+#3.Configure the SNS with SMS level.
+ANS-1.create topic 
+2.congig the sms subscription 
+3.chech the subscription 
+4.create topic policy 
+5.test the message 
+
+
+
